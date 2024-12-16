@@ -1,0 +1,24 @@
+.box {
+    margin-bottom: 10px;
+    padding: 20px 20px;
+    background-color: rgb(171, 175, 175);
+    border-radius: 2px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main .box:nth-child(2) {
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
